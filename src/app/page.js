@@ -41,6 +41,19 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="col mb-5">
+                <div className="card h-100">
+                  <div className="card-body p-4">
+                    <div className="text-center">
+                      <h5 className="fw-bolder">공모주 계산기</h5>
+                      공모주 균등/비례 배정 계산기
+                    </div>
+                  </div>
+                  <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div className="text-center"><a className="btn btn-outline-dark mt-auto" href={`${prefix}/cal/publicStock`}>View</a></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
